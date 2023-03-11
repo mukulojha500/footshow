@@ -1,0 +1,119 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: #919191;
+}
+
+.matchPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #b9b9b9;
+    color: aliceblue;
+    margin: 1rem;
+    height: 37vh;
+    width: 85vw;
+}
+
+.topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 85vw;
+    height: 12vh;
+}
+
+.topContainerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid black;
+    height: 12vh;
+    width: 50vw;
+    padding-bottom: 0.5rem;
+}
+
+.topContainerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid black;
+    height: 12vh;
+    width: 50vw;
+    padding-bottom: 0.5rem;
+}
+
+.middleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+}
+
+.middleContainerLeft {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 33vw;
+}
+
+.middleContainerCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34vw;
+    flex-direction: column;
+}
+
+.midddleContainerCenterTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.middleContainerCenterBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.middleContainerRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 33vw;
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #000000;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-left: 45vw;
+    margin-top: 45vh;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
